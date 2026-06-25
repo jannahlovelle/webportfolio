@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    color: #604d53;
+}
+
+.navbar, footer{
+	background-color: #604d53;
+}
+
+#logo{
+	color: white;
+	font-weight: 700;
+}
+
+.nav-item a{
+	color: white !important;
+	transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.nav-item a:hover{
+	transform: scale(1.05);
+}
+
+#landing{
+	background: url("./images/landing.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#landing h1 {
+	font-weight: 800;
+}
+
+#landing h2{
+	font-style: italic;
+}
+
+#landing a{
+	
+	text-decoration: none;
+	color: white;
+	font-weight: 800;
+}
+
+#landing .btn, #contact .btn{
+	border: none;
+	background-color: #db7f8e;
+	color: white;
+}
+
+#landing .btn:hover{
+	background: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03));
+	background-color: #db7f8e;
+	transform: scale(1.05);
+}
+
+#projects{
+	background-color: #FFDBDA;
+}
+
+.card-title{
+	font-weight: 800;
+}
+
+#projects .card {
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  min-height: 450px;
+}
+
+@media (min-width: 768px) {
+  #projects .card:hover {
+    transform: scale(1.05);
+  }
+}
+
+#tools img{
+	transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	height: 100px;
+}
+
+#tools img:hover{
+	transform: scale(1.05);
+}
+
+#contact{
+	background-color: #FFDBDA;
+}
+
+#contact img{
+	width: 40px;
+}
+
+#contact a{
+	text-decoration: none;
+}
